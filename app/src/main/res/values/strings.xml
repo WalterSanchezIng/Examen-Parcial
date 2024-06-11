@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Examen Parcial CM</string>
+    <string name="string_tv_usuario">USUARIO</string>
+    <string name="string_usuario">Ingrese Usuario</string>
+    <string name="string_tv_password">CONTRASEÑA</string>
+    <string name="string_password">Ingresa Contraseña</string>
+    <string name="button_ingresar">INGRESAR</string>
+    <string name="string_tv_registrar"> <u>REGISTRAR</u> </string>
 </resources>
