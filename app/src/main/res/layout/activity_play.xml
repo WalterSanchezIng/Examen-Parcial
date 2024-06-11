@@ -11,10 +11,10 @@
         android:id="@+id/textView6"
         android:layout_width="266dp"
         android:layout_height="33dp"
-        android:text="TextView"
+        android:text="@string/tv_name"
+        tools:ignore="HardcodedText,MissingConstraints"
         tools:layout_editor_absoluteX="45dp"
-        tools:layout_editor_absoluteY="52dp"
-        tools:ignore="HardcodedText,MissingConstraints" />
+        tools:layout_editor_absoluteY="52dp" />
 
     <TableLayout
         android:layout_width="244dp"

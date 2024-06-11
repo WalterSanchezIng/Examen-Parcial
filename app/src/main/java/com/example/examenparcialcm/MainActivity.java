@@ -35,14 +35,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Registrar(View view){
-        Intent regresar =new Intent(this,Register.class);
+        Intent regresar =new Intent(this, Register.class);
         startActivity(regresar);
     }
     public void ingresar(View view){
         String usuario = et_usuario.getText().toString();
         String contrasena = et_contrasena.getText().toString();
         validar_datos(usuario,contrasena);
-
+        Intent regresar =new Intent(this, Play.class);
+        startActivity(regresar);
 
 
     }
@@ -59,9 +60,6 @@ public class MainActivity extends AppCompatActivity {
             } else {
                 String usuario = getIntent().getStringExtra("name");
 
-                //Intent mandar_michi = new Intent(this, ActivityMichi.class);
-                //mandar_michi.putExtra("name", usuario);
-                //startActivity(mandar_michi);
             }
         }
     }

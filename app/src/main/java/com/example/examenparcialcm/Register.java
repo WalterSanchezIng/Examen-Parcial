@@ -42,9 +42,9 @@ public class Register extends AppCompatActivity {
         cb_peru = findViewById(R.id.cb_peru);
         cb_brasil = findViewById(R.id.cb_brasil);
         cb_colombia = findViewById(R.id.cb_colombia);
-        String [] mylist={"manzana", "pera", "sandia", "mango"};
-        ArrayAdapter<String> adapta=new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, mylist);
-        lis_lista.setAdapter(adapta);
+       // String [] mylist={"manzana", "pera", "sandia", "mango"};
+        //ArrayAdapter<String> adapta=new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, mylist);
+       // lis_lista.setAdapter(adapta);
     }
 
     private String validar_campo(String usuario, String contrasena){
