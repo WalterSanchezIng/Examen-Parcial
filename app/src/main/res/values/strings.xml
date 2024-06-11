@@ -6,4 +6,16 @@
     <string name="string_password">Ingresa Contraseña</string>
     <string name="button_ingresar">INGRESAR</string>
     <string name="string_tv_registrar"> <u>REGISTRAR</u> </string>
+
+    //registro
+    <string name="txt_r"> REGISTRO </string>
+    <string name="rb1"> rojo </string>
+    <string name="rb2">azul</string>
+    <string name="rb3"> morado </string>
+    <string name="cb1"> peru </string>
+    <string name="cb2"> brasil </string>
+    <string name="cb3"> colombia </string>
+    <string name="btn_r"> REGISTRAR </string>
+    <string name="btn_v"> VOLVER </string>
+    <string name="tv_lista"> lista  </string>
 </resources>
